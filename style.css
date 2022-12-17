@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Inter", sans-serif;
+  padding: 1rem;
+}
+
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+.form-container {
+  max-width: 380px;
+  margin-top: 1rem;
+}
+
+label {
+  display: block;
+}
+
+input {
+  max-width: 100%;
+  margin-top: 0.5rem;
+}
+
+#chartContainer {
+  margin-top: 2rem;
+}
+
+g.graph-point {
+  fill: rgba(33, 165, 175, 0);
+  stroke-width: 1;
+  stroke: none;
+}
+
+g.graph-line {
+  fill: rgba(53, 55, 58, 0.5);
+  stroke: rgb(188, 198, 223);
+}
+
+g.graph-text {
+  fill: black;
+  stroke-width: 1;
+  stroke: none;
+  text-anchor: middle;
+  font-size: 1rem;
+}
