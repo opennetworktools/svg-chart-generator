@@ -20,6 +20,27 @@ body {
   padding: 1rem;
 }
 
+h1 {
+  font-size: 1.5rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+.btn {
+  padding: 0.5rem 0.75rem;
+  background-color: black;
+  color: white;
+  font-weight: 500;
+  font-size: 0.875rem;
+  border: 2px solid black;
+}
+
+.btn:hover {
+  background-color: #232323;
+}
+
 svg {
   display: block;
   max-width: 100%;
@@ -60,4 +81,21 @@ g.graph-text {
   stroke: none;
   text-anchor: middle;
   font-size: 1rem;
+}
+
+#real {
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  border: 2px solid lightgray;
+}
+
+.btn-download-chart-as-svg,
+.btn-download-chart-as-png {
+  margin-top: 1rem;
+}
+
+@media only screen and (min-width: 600px) {
+  h1 {
+    font-size: 1.875rem;
+  }
 }
